@@ -3,6 +3,26 @@
 ## Overview
 This project implements a machine learning solution to predict next-day health incidents for Assisted Living Facility (ALF) residents. The goal is to help facility managers proactively identify at-risk patients and allocate resources effectively.
 
+## Installation
+
+### Clone the Repository
+```bash
+git clone git@github.com:karimdeif/alf-prj.git
+cd alf-prj
+```
+
+### Set Up Environment
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
 ## Project Structure
 ```
 alf_project/
